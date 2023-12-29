@@ -15,9 +15,7 @@ Content-Type: application/json
 }
 
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{BC1F0000-569F-0050-44F1-08DC00CC7F3B}/Validate
-
-
+GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{500A0000-569F-0050-9071-08DC07B514CE}/Validate
 
 
 ##################################### CRUD STATEMENTS#################################################
@@ -25,8 +23,15 @@ GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{BC1F0000-569F-0050-
 #******************* Orders - Get Order Details
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Details
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Details HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/771/Details HTTP/1.1
+Authorization: token 500A0000-569F-0050-9071-08DC07B514CE
+
+
+#******************* Orders - Get Order Details (ID)
+    # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderID}/Details
+###
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/04110000-569f-0050-7d0e-08dc00cc3736/Details HTTP/1.1
+Authorization: token 500A0000-569F-0050-9071-08DC07B514CE
 
 
 #******************* Orders - Get Order Items
@@ -34,7 +39,7 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Items HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 500A0000-569F-0050-9071-08DC07B514CE
 
 
 #******************* Orders - Get Order Payments
@@ -42,7 +47,7 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Payments HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 500A0000-569F-0050-9071-08DC07B514CE
 
 
 #******************* Orders - Get Order Shipments
@@ -50,7 +55,7 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Shipments HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 500A0000-569F-0050-9071-08DC07B514CE
 
 
 #******************* Orders - Get Order CheckoutForm
@@ -58,27 +63,15 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/CheckoutForm HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 500A0000-569F-0050-9071-08DC07B514CE
 
 
-#******************* Orders - Import Orders (xlsx file)
-#******************* HTTP/1.1 200 OK
-#******************* {
-#******************* "ImportID": "00000000-0000-0000-0000-000000000000",
-#******************* "Message": "No File Found", 
-#******************* "Importing": false,
-#******************* "FileName": null,
-#******************* "StartDate": null
-#******************* }
-    # https://admin.chi.v6.pressero.com/api/v2/orders/import/
+#******************* Users - Get The First 10 Users
+    # https://admin.chi.v6.pressero.com/api/site/{domain}/users
 
 ###
-POST https://admin.chi.v6.pressero.com/api/v2/orders/import/ HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
-
-
-#******************* 
-
+GET https://admin.chi.v6.pressero.com/api/site/af.brandfulfillment.store/users/ HTTP/1.1
+Authorization: token 500A0000-569F-0050-9071-08DC07B514CE
 
 #******************* 
 
