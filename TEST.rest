@@ -9,7 +9,18 @@ Content-Type: application/json
 
 {
     "UserName": "rsdAdmin",
-    "Password": "1234",
+    "Password": "Ch33se1234",
+    "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
+    "ConsumerID": "1807430a-9b0c-4a10-8ad8-341616d058fa"
+}
+
+###
+POST https://admin.chi.v6.pressero.com/api/V2/Authentication
+Content-Type: application/json
+
+{
+    "UserName": "rsdAdmin",
+    "Password": "Ch33se1234",
     "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
     "ConsumerID": "1807430a-9b0c-4a10-8ad8-341616d058fa"
 }
