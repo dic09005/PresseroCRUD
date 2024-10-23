@@ -8,7 +8,7 @@ POST https://adminc.pro-matters.com/api/V2/Authentication
 Content-Type: application/json
 
 {
-    "UserName": "rsdAdmin",
+    "UserName": "rdickson@alphagraphics.com",
     "Password": "Ch33se1234",
     "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
     "ConsumerID": "1807430a-9b0c-4a10-8ad8-341616d058fa"
@@ -95,5 +95,8 @@ Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
 
 #******************* 
 
+###
+DELETE https://admin.chi.v6.pressero.com/api/Calculators/741d0000-569f-0050-5bed-08dcd755c422 HTTP/1.1
+Authorization: token AC040000-569F-0050-C1C7-08DCF37FA51D
 
 #******************* 
