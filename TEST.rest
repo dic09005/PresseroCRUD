@@ -100,3 +100,70 @@ DELETE https://admin.chi.v6.pressero.com/api/Calculators/741d0000-569f-0050-5bed
 Authorization: token AC040000-569F-0050-C1C7-08DCF37FA51D
 
 #******************* 
+
+
+
+
+
+
+###
+GET https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/ HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+
+
+
+
+
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/901b0000-569f-0050-e7b3-08dbbdf08e9c HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/901b0000-569f-0050-2e0d-08dbbdf0906d HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/901b0000-569f-0050-9947-08dbbdf09234 HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/901b0000-569f-0050-b445-08dbbdf0948e HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/60160000-569f-0050-f0ca-08dbbdf0965a HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/700a0000-569f-0050-c949-08dbbdf0ac7d HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/60160000-569f-0050-27cf-08dbbdf0aee1 HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/901b0000-569f-0050-53c0-08dbbdf0b386 HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/901b0000-569f-0050-1e5f-08dbbdf0b55c HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+### 
+DELETE https://admin.chi.v6.pressero.com/api/site/ahs.brandfulfillment.store/Assets/60160000-569f-0050-8d55-08dbbdf0b7af HTTP/1.1
+Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
