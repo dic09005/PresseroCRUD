@@ -155,6 +155,17 @@ Authorization: token F0080000-569F-0050-27AC-08DD05A6747E
 
 
 
+###
+GET https://ag679.corebridge.net/api/public/ExOrder
+Authorization: basic 46ca4e64-af5f-47f5-9a23-d12b2f8c34f9
+page: 2
+pageSize: 10000
+
+
+###
+
+
+
 
 
 
