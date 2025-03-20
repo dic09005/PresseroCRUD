@@ -14,19 +14,9 @@ Content-Type: application/json
     "ConsumerID": "1807430a-9b0c-4a10-8ad8-341616d058fa"
 }
 
-###
-POST https://admin.chi.v6.pressero.com/api/V2/Authentication
-Content-Type: application/json
-
-{
-    "UserName": "rsdAdmin",
-    "Password": "Ch33se1234",
-    "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
-    "ConsumerID": "1807430a-9b0c-4a10-8ad8-341616d058fa"
-}
 
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{8C260000-569F-0050-891D-08DC2C9BB258}/Validate
+GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{6C070000-569F-0050-D112-08DD6659E6BF}/Validate
 
 
 ##################################### CRUD STATEMENTS#################################################
@@ -34,15 +24,15 @@ GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{8C260000-569F-0050-
 #******************* Orders - Get Order Details
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Details
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Orders/771/Details HTTP/1.1
-Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/5317/Details HTTP/1.1
+Authorization: token 6C070000-569F-0050-D112-08DD6659E6BF
 
 
 #******************* Orders - Get Order Details (ID)
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderID}/Details
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/04110000-569f-0050-7d0e-08dc00cc3736/Details HTTP/1.1
-Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
+Authorization: token 6C070000-569F-0050-D112-08DD6659E6BF
 
 
 #******************* Orders - Get Order Items
@@ -50,7 +40,7 @@ Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Items HTTP/1.1
-Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
+Authorization: token 6C070000-569F-0050-D112-08DD6659E6BF
 
 
 #******************* Orders - Get Order Payments
@@ -58,7 +48,7 @@ Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Payments HTTP/1.1
-Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
+Authorization: token 6C070000-569F-0050-D112-08DD6659E6BF
 
 
 #******************* Orders - Get Order Shipments
@@ -66,7 +56,7 @@ Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Shipments HTTP/1.1
-Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
+Authorization: token 6C070000-569F-0050-D112-08DD6659E6BF
 
 
 #******************* Orders - Get Order CheckoutForm
@@ -74,7 +64,7 @@ Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/CheckoutForm HTTP/1.1
-Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
+Authorization: token 6C070000-569F-0050-D112-08DD6659E6BF
 
 
 #******************* Users - Get The First 10 Users
@@ -82,15 +72,11 @@ Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
 
 ###
 GET https://admin.chi.v6.pressero.com/api/site/af.brandfulfillment.store/users/ HTTP/1.1
-Authorization: token 8C260000-569F-0050-891D-08DC2C9BB258
+Authorization: token 6C070000-569F-0050-D112-08DD6659E6BF
 
 #******************* 
 
 
-#******************* 
-
-
-#******************* 
 
 
 #******************* 
@@ -100,9 +86,6 @@ DELETE https://admin.chi.v6.pressero.com/api/Calculators/741d0000-569f-0050-5bed
 Authorization: token AC040000-569F-0050-C1C7-08DCF37FA51D
 
 #******************* 
-
-
-
 
 
 
